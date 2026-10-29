@@ -1,0 +1,4 @@
+/config.php
+/storage/backups/*.sql
+*.log
+.DS_Store
