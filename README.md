@@ -1,4 +1,4 @@
-# Farmacia La Bendición — Sistema web (MVP académico)
+# Farmacia La Bendición — Sistema web
 
 Implementación de la **Fase 1 y 2 / SRS-FLB-01** del proyecto de Ingeniería de Software I: control de productos, inventario por lotes, compras, ventas, comprobantes básicos, proveedores, clientes, usuarios, alertas y reporte de ventas del día.
 
@@ -50,8 +50,6 @@ Implementación de la **Fase 1 y 2 / SRS-FLB-01** del proyecto de Ingeniería de
 | RF-16 | Alerta por existencia ≤ umbral | Umbral individual por producto |
 | RF-17 | Consulta de alertas separadas | Alertas: bajo stock, vencido, próximo a vencer |
 | RF-18 | Comprobante básico imprimible | Comprobante de cada venta, con advertencia fiscal |
-
-**Numeración:** los identificadores RF-11 y HU-10 no aparecen como funcionalidades vigentes en la matriz del documento entregado. Se conservó la numeración de origen sin inventar requisitos.
 
 ## 4. Reglas de negocio y seguridad
 
@@ -115,5 +113,3 @@ farmacia_la_bendicion/
 ├── tests/unit.php           Pruebas de validación sin base de datos
 └── tests/PRUEBAS_ACEPTACION.md
 ```
-
-La estructura es deliberadamente sencilla para facilitar mantenimiento en un entorno académico, sin dependencias Composer ni compilación de frontend.
